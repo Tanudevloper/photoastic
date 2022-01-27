@@ -53,6 +53,6 @@ app.get("/",(req,res)=>{
     res.set({
         "Allow-access-Allow-Origin":'*'})
         return res.redirect('home.html');
-}).listen(3000);
+}).listen(process.env.PORT);
 
-console.log("listening on port 3000");
+console.log(`listening on port ${process.env.PORT}`);
