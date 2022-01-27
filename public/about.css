@@ -1,0 +1,119 @@
+nav {
+    /* display: flex; */
+    height: 70px;
+    background-color: rgb(203, 246, 246);
+}
+
+nav div a{
+    margin: 0px 15px;
+    color: black;
+    font-weight: bolder;
+    text-decoration-line: none;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 50px;
+    font-family:cursive ;
+}
+
+nav div a:hover{
+    color: rgb(67, 127, 129);
+    font-weight: bold;
+    font-size: 52px;
+    /* transform: none; */
+}
+
+nav ul li {
+    list-style: none;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    margin: 0px 15px;
+    color: black;
+    font-weight: bolder;
+    text-decoration-line: none;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+nav ul li a:hover{
+    /* background-color: darksalmon; */
+    color: rgb(67, 127, 129);
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+}
+
+div.bg-img{
+    background-image: url("../images/imgabt.jpg");
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+
+div.text h1{
+    color: white;
+    font-family: cursive;
+    font-weight: bolder;
+    text-decoration: underline;
+    position: absolute;
+    top: 35%;
+    left: 7%;
+}
+
+div.text p{
+    font-size: larger;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 4%;
+}
+div.container{
+    display: flex;
+}
+/* div.img{
+    background-image: url("https://i.ibb.co/0cKVkGG/images-1-removebg-preview.png");
+    height: 100px;
+    width: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 60%;
+    left: 12%;
+
+} */
+/* div.img1{
+    background-image: url("https://i.ibb.co/wwW0MZZ/images-removebg-preview.png");
+    height: 100px;
+    width: 30%;
+    position:absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 60%;
+    left: 25%;
+} */
+footer{
+    text-align: center;
+    /* justify-content: center; */
+}
+footer ul li {
+    list-style: none;
+    padding-top: 5px;
+    
+}
+footer ul li a{
+    margin: 0px 5px; 
+}
+@media screen and (max-width:600px) {
+
+    div.img{
+        top: 70%;
+    }
+    div.img1{
+        top: 70%;
+        left: 40%;
+    }
+}

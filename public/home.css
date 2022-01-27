@@ -1,0 +1,143 @@
+
+
+nav {
+    /* display: flex; */
+    height: 70px;
+    background-color: rgb(203, 246, 246);
+}
+
+nav div a{
+    margin: 0px 15px;
+    color: black;
+    font-weight: bolder;
+    text-decoration-line: none;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 50px;
+    font-family:cursive ;
+}
+
+nav div a:hover{
+    color: rgb(67, 127, 129);
+    font-weight: bold;
+    font-size: 52px;
+    /* transform: none; */
+}
+
+nav ul li {
+    list-style: none;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    margin: 0px 15px;
+    color: black;
+    font-weight: bolder;
+    text-decoration-line: none;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+nav ul li a:hover{
+    /* background-color: darksalmon; */
+    color: rgb(67, 127, 129);
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+}
+
+div.bg-img{
+    background-image: url("https://i.ibb.co/ZdG7TCs/530366.jpg");
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.box{
+    border: 2px solid black;
+    position: absolute;
+    top: 250px;
+    left: 15%;
+}
+
+div.box h1{
+    color: black;
+    font-size: 45px;
+    padding: 15px 15px;
+    text-decoration-line: underline;
+}
+div.box h3{
+    color: black;
+    font-size: 30px;
+    padding: 15px 15px;
+}
+div.box .image{
+    display: flex;
+}
+div.box .bi{
+    padding: 15px 15px;
+    
+}
+div h6{
+    margin-top: 65px;
+    margin-left: 10px;
+}
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(217, 236, 243);
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    /* background-color: darkseagreen;
+    height: 500px; */
+}
+div.container .img{
+    background-image: url("https://i.ibb.co/kGWRhkB/Wedding-Photography-Poses.jpg");
+    height: 550px;
+    width: 45%;
+    background-size: cover;
+}
+div.container h1{
+    /* margin-left: 10%; */
+    padding-top: 25px;
+    font-style: cursive;
+}
+div.container.content p{
+    /* margin-left: 10%; */
+    /* padding-top: 25px; */
+    font-style: cursive;
+    font-size: bold;
+}
+div.content{
+    margin-left: 2%;
+}
+footer{
+    text-align: center;
+    /* justify-content: center; */
+}
+footer ul li {
+    list-style: none;
+    padding-top: 5px;
+    
+}
+footer ul li a{
+    margin: 0px 5px; 
+}
+@media screen and (max-width:600px) {
+    nav ul li {
+        list-style: none;
+        margin-left: 10px;
+
+    }
+    div.box{
+        left: 0;
+    }
+    div.container .img{
+        width: 100%;
+        background-size: cover;
+    }
+}
